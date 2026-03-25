@@ -3,7 +3,7 @@ name: Compile Rule Set
 on:
   push:
     paths:
-      - '**.json'
+      - 'AI.json'
   workflow_dispatch:
 
 jobs:
