@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "checkip.synology.com",
+        "checkipv6.synology.com",
+        "checkport.synology.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "msftncsi.com",
+        "msftconnecttest.com",
+        "ccmdls.adobe.com",
+        "m-team.io",
+        "m-team.cc",
+        "sellercentral.amazon.com",
+        "advertising.amazon.com",
+        "cm.steampowered.com",
+        "test.steampowered.com"
+      ]
+    }
+  ]
+}
