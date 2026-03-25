@@ -3,7 +3,7 @@ name: Compile Rule Set
 on:
   push:
     paths:
-      - 'AI.json'
+      - '**.json'
   workflow_dispatch:
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
           sudo mv sing-box-*/sing-box /usr/local/bin/
           sing-box version
 
-      - name: Compile all .json rule sets to .srs
+      - name: Compile .json to .srs
         run: |
           for f in *.json; do
             name="${f%.json}"
