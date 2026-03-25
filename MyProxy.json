@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "prod.ipprotectionauth.goog"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "mm.bing.net",
+        "clashverge.dev",
+        "codecguide.com",
+        "dell.com",
+        "v2ex.com",
+        "z-library.sk",
+        "maxon.net",
+        "charliemonroe.net",
+        "aescripts.com",
+        "b-cdn.net",
+        "fastpictureviewer.com",
+        "coze.com",
+        "heygen.com",
+        "appsflyersdk.com",
+        "cloudns.net",
+        "homatics.com",
+        "itangtalk.com",
+        "krxd.net",
+        "wps.com",
+        "rfa.org",
+        "daum.net",
+        "shazam.com",
+        "opensubtitles.com",
+        "genymotion.com",
+        "apkpure.com",
+        "cdnpure.com",
+        "pureapk.com",
+        "winudf.com",
+        "asuswrt-merlin.net",
+        "tenor.com",
+        "tritondigital.com",
+        "feiyangka.com",
+        "sh5.live",
+        "bffc.edu.kg",
+        "gitbook.io",
+        "downloadhelper.net",
+        "myqnap.org",
+        "immersivetranslate.com",
+        "deepl.com",
+        "apk.tw",
+        "ispazio.net",
+        "cdnlz30.com",
+        "gszyi.com",
+        "xlzyd.com",
+        "jisuts.com",
+        "hhwenjian.com",
+        "baisiweiting.com",
+        "bit.ly",
+        "iill.top",
+        "v1.mk"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "v2rayssr",
+        "linktr.ee",
+        "daumcdn",
+        "netshort",
+        "bluestacks"
+      ]
+    }
+  ]
+}
