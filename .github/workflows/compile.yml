@@ -1,0 +1,42 @@
+name: Compile Rule Set
+
+on:
+  push:
+    paths:
+      - '**.json'
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download sing-box
+        run: |
+          LATEST=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | grep tag_name | cut -d'"' -f4)
+          VERSION=${LATEST#v}
+          wget -q "https://github.com/SagerNet/sing-box/releases/download/${LATEST}/sing-box-${VERSION}-linux-amd64.tar.gz"
+          tar -xzf sing-box-*.tar.gz
+          sudo mv sing-box-*/sing-box /usr/local/bin/
+          sing-box version
+
+      - name: Compile .json to .srs
+        run: |
+          for f in *.json; do
+            name="${f%.json}"
+            echo "Compiling $f -> ${name}.srs"
+            sing-box rule-set compile --output "${name}.srs" "$f"
+          done
+
+      - name: Commit and push .srs files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.srs
+          git diff --cached --quiet || git commit -m "chore: auto-compile rule sets [skip ci]"
+          git push
