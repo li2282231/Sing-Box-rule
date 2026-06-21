@@ -6,6 +6,7 @@
         "chatgpt-async-webps-prod-",
         "openaicom-api-",
         "antigravity-auto-updater-"
+        "tapnow"
       ]
     },
     {
@@ -46,7 +47,12 @@
         "cerebras.ai",
         "antigravity.google",
         "antigravity-unleash.goog",
-        "run.app"
+        "run.app",
+        "kiro.dev",
+        "cerebras.ai",
+        "minimax.io",
+        "z.ai",
+        "anyvoice.net"
       ]
     },
     {
@@ -99,7 +105,8 @@
         "aiplatform.googleapis.com",
         "ai-gateway.vercel.sh",
         "router.huggingface.co",
-        "integrate.api.nvidia.com"
+        "integrate.api.nvidia.com",
+        "token-plan-sgp.xiaomimimo.com"
       ]
     },
     {
