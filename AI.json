@@ -5,8 +5,7 @@
       "domain_keyword": [
         "chatgpt-async-webps-prod-",
         "openaicom-api-",
-        "antigravity-auto-updater-",
-        "tapnow"
+        "antigravity-auto-updater-"
       ]
     },
     {
@@ -52,7 +51,14 @@
         "cerebras.ai",
         "minimax.io",
         "z.ai",
-        "anyvoice.net"
+        "anyvoice.net",
+        "tapnow.ai",
+        "tapnow.art",
+        "adjust.com",
+        "mixpanel.com",
+        "stripe.com",
+        "stripe.network",
+        "ingest.us.sentry.io"
       ]
     },
     {
