@@ -57,8 +57,7 @@
         "adjust.com",
         "mixpanel.com",
         "stripe.com",
-        "stripe.network",
-        "ingest.us.sentry.io"
+        "stripe.network"
       ]
     },
     {
