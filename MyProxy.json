@@ -3,11 +3,13 @@
   "rules": [
     {
       "domain": [
-        "prod.ipprotectionauth.goog"
+        "prod.ipprotectionauth.goog",
+        "prod.notepad-plus-plus.org"
       ]
     },
     {
       "domain_suffix": [
+        "nssurge.com",
         "mm.bing.net",
         "clashverge.dev",
         "codecguide.com",
