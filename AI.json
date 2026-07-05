@@ -51,6 +51,7 @@
         "cerebras.ai",
         "minimax.io",
         "z.ai",
+        "agnes-ai.com",
         "anyvoice.net",
         "tapnow.ai",
         "tapnow.art",
@@ -111,7 +112,8 @@
         "ai-gateway.vercel.sh",
         "router.huggingface.co",
         "integrate.api.nvidia.com",
-        "token-plan-sgp.xiaomimimo.com"
+        "token-plan-sgp.xiaomimimo.com",
+        "token-plan-ams.xiaomimimo.com"
       ]
     },
     {
