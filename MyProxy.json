@@ -4,7 +4,8 @@
     {
       "domain": [
         "prod.ipprotectionauth.goog",
-        "prod.notepad-plus-plus.org"
+        "prod.notepad-plus-plus.org",
+        "api.ipify.org"
       ]
     },
     {
