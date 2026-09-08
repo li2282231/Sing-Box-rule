@@ -60,7 +60,11 @@
         "adjust.com",
         "mixpanel.com",
         "stripe.com",
-        "stripe.network"
+        "stripe.network",
+        "suno.com",
+        "suno.ai",
+        "cloudfront.net",
+        "realtime.ably.net"
       ]
     },
     {
@@ -116,7 +120,7 @@
         "router.huggingface.co",
         "integrate.api.nvidia.com",
         "token-plan-sgp.xiaomimimo.com",
-        "token-plan-ams.xiaomimimo.com"
+        "edge.prelude.dev"
       ]
     },
     {
